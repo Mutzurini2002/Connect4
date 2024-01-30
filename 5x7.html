@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Connect 4</title>
+    <link rel="stylesheet" href="5x7.css">
+    <script src="5x7.js"></script>
+</head>
+<body>
+    <h1>Connect 4</h1>
+    <h2>5X7</h2>
+    <h2 id="winner"></h2>
+    <div id="board"></div>
+
+    <div style="padding-top: 50px;">
+        <button class="bot" style="border-color: rgb(206, 43, 43);" onclick="openPage('5x7.html')">5X7</button>
+        <button class="bot" style="border-color: rgb(206, 43, 43);" onclick="openPage('6x7.html')">6X7</button>
+        <button class="bot" style="border-color: rgb(206, 43, 43);" onclick="openPage('7x7.html')">7X7</button>
+    </div>
+
+    <script>
+        function openPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+</body>
+</html>
